@@ -11,5 +11,13 @@
             "name": "geyunfei",
             "email": "geyunfei@gmail.com"
         }
-    ]
+    ],
+	"autoload": {
+		"psr-4": {
+			"Geyunfei\\": "src/Geyunfei/"
+		}
+	},
+	"require-dev": {
+		        "phpunit/phpunit": "~7.0"
+	}
 }
